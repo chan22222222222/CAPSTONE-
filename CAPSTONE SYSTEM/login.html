@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Login - Gamacare Health Center</title>
+  <!-- Link your CSS (e.g., login.css or style.css) -->
+  <link rel="stylesheet" href="login.css" />
+</head>
+<body>
+  <div class="login-container">
+    <!-- Left Column: Login Form -->
+    <div class="login-left">
+      <!-- Logo (optional) -->
+      <div class="logo-area">
+        <img
+          src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjQwIiB2aWV3Qm94PSIwIDAgMTIwIDQwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIxMjAiIGhlaWdodD0iNDAiIGZpbGw9IiNkZGQiLz48dGV4dCB4PSI2MCIgeT0iMjQiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiM1NTUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNiI+TE9HTzwvdGV4dD48L3N2Zz4="
+          alt="Gamacare Logo"
+        />
+      </div>
+
+      <!-- Form Header -->
+      <h2>Create your account</h2>
+
+      <!-- OR with Google Sign-In -->
+      <div class="google-signin">
+        <button class="google-btn">
+          <!-- Simple placeholder "G" icon -->
+          <img
+            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAxNTAgMTUwIiBmaWxsPSIjRkZGRkZGIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjx0ZXh0IHg9Ijc1IiB5PSI4MCIgZmlsbD0iIzMzMyIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjQwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5HPC90ZXh0Pjwvc3ZnPg=="
+            alt="G Icon"
+            width="20"
+            height="20"
+          />
+          <span>Sign in with Google</span>
+        </button>
+      </div>
+      <p class="or-divider">OR</p>
+
+      <!-- Email Input -->
+      <label for="email">Email</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="example.mail@gmail.com"
+        required
+      />
+
+      <!-- Continue Button -->
+      <button class="continue-btn" id="continueBtn">Continue</button>
+
+      <!-- Already have an account? -->
+      <p class="already-text">
+        Already have an account?
+        <a href="#" id="loginLink">Login</a>
+      </p>
+    </div>
+
+    <!-- Right Column: Replace placeholder with gama.jpg -->
+    <div class="login-right">
+      <img
+        src="gama.jpg" <!-- If your file is in a subfolder like images/, use src="images/gama.jpg" -->
+        alt="Gamacare illustration"
+        class="illustration"
+      />
+    </div>
+  </div>
+
+  <!-- (Optional) JavaScript to handle form submission or link to booking -->
+  <script>
+    document.getElementById('continueBtn').addEventListener('click', function() {
+      // In a real app, you'd do form validation, 
+      // then proceed to booking.html or a password setup, etc.
+      window.location.href = 'booking.html';
+    });
+
+    document.getElementById('loginLink').addEventListener('click', function(e) {
+      e.preventDefault();
+      alert('Redirect to login page...');
+      // e.g. window.location.href = 'login_existing.html';
+    });
+  </script>
+</body>
+</html>

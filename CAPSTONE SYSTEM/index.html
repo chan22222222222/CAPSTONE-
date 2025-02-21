@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Gamacare Health Center Patient Portal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header / Navigation -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <!-- Example placeholder logo (120×40 gray rectangle with "LOGO") -->
+        <img 
+          src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjQwIiB2aWV3Qm94PSIwIDAgMTIwIDQwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIxMjAiIGhlaWdodD0iNDAiIGZpbGw9IiNkZGQiLz48dGV4dCB4PSI2MCIgeT0iMjQiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiM1NTUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNiI+TE9HTzwvdGV4dD48L3N2Zz4="
+          alt="Gamacare Logo"
+        />
+        <span class="brand-name">Gamacare</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+      <!-- Updated: Link to login.html instead of booking.html -->
+      <button class="appointment-btn" onclick="window.location.href='login.html'">
+        Book Appointment
+      </button>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Welcome to Gamacare</h1>
+      <p>Your trusted partner in health and wellness</p>
+      <button class="cta-btn" id="getStartedBtn">Get Started</button>
+    </div>
+  </section>
+
+  <!-- Book Appointment Section -->
+  <section class="book-section">
+    <!-- Updated: Link to login.html instead of booking.html -->
+    <button class="appointment-btn" onclick="window.location.href='login.html'">
+      Book Appointment
+    </button>
+  </section>
+
+  <!-- Info Section -->
+  <section class="info-section">
+    <div class="info-card">
+      <img
+        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyYWxvdW5kIj48cmVjdCB4PSIzIiB5PSI0IiB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHJ4PSIyIiByeT0iMiI+PC9yZWN0PjxsaW5lIHgxPSIxNiIgeTE9IjIiIHgyPSIxNiIgeTI9IjYiPjwvbGluZT48bGluZSB4MT0iOCIgeTE9IjIiIHgyPSI4IiB5Mj0iNiI+PC9saW5lPjxsaW5lIHgxPSIzIiB5MT0iMTAiIHgyPSIyMSIgeTI9IjEwIj48L2xpbmU+PC9zdmc+"
+        alt="Logo"
+        width="24" 
+        height="24"
+      />
+      <h3>Services</h3>
+    </div>
+    <div class="info-card">
+      <img
+        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyYWxvdW5kIj48bGluZSB4MT0iMTkiIHkxPSIxMiIgeDI9IjUiIHkyPSIxMiI+PC9saW5lPjxwb2x5bGluZSBwb2ludHM9IjEyIDE5IDUgMTIgMTIgNSI+PC9wb2x5bGluZT48L3N2Zz4="
+        alt="Logo"
+        width="24" 
+        height="24"
+      />
+      <h3>About Us</h3>
+    </div>
+    <div class="info-card">
+      <img
+        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyYWxvdW5kIj48cGF0aCBkPSJNMjEgMTYuNWMtMS45IDAtMy43LS3uNCA1IDIgMi4xIDIgMi44IDYuMyAyLjggNi4zLjYuNiAxLjcuNiAyLjMgMCA2LjQtMyA5LjQtNiA5LjQtNi42IDAtNy0zLjgtNy01IDAtLjYuNi0xLjcgMi4zLTIuOCAyLjEtMi4xIDUtMi44IDYtMi44bC0uNCAwWiI+PC9wYXRoPjwvc3ZnPg=="
+        alt="Logo"
+        width="24" 
+        height="24"
+      />
+      <h3>Contact Us</h3>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-left">
+      <select name="language" id="languageSelect">
+        <option value="en" selected>English</option>
+        <option value="es">Español</option>
+        <option value="fr">Français</option>
+      </select>
+      <p>© 2024 Brand, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a> · <a href="#">Sitemap</a></p>
+    </div>
+    <div class="footer-right">
+      <a href="#">
+        <img
+          src="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDAwMDAwIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAxNTAgMTUwIj48cGF0aCBkPSJtOTQgNDVoLTMuOWMwLTEuMi45LTEuNCAxLjItMS40aDIuN3YtN2gtNHMtNC4yIDEuMy00LjIgNGMwIDAgMCAzIDAgNWgtMy43djdoMy43czAgNCAwIDh2MTMuN2gyLjN2LTkuN2g0LjNsLjYtN2gtNS4zeiIvPjwvc3ZnPg=="
+          alt="Logo"
+          width="24"
+          height="24"
+        />
+      </a>
+      <a href="#">
+        <img
+          src="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDAwMDAwIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAxNTAgMTUwIj48cGF0aCBkPSJtMTQ1LjEgMTYuM2MtNS4yIDQuMi0xMC45IDcuMi0xNy4xIDguNSA1LjQtMy4zIDkuNi04IDExLjUgMTMuNC00LjktMi44LTExLjItNC4xLTE3LjMtNCAwIDAgMCAyLjQgMCA0LjQgMCA3LjYtMy44IDE0LjMtOS43IDE4LjMtNC4zLTAuMS04LjItMS4yLTExLjYtMy4yIDAgMCAwIDAuMSAwIDAuMSA3LjUgNC44IDE2LjMgNy42IDI2LjEgNy43LTUuMyA0LjEtMTEuOSAzLjctMTcuNiAxIDUuMyAzLjQgMTAuMiA1LjQgMTYuMiA1LjQgMTkuNSAwIDMwLjItMTYuMiAzMC4yLTMwLjIgMCAwIDAgMC0uMS0wLjEgNS4zLTMuNCA5LjctNy42IDEzLjMtMTIuNnoiLz48L3N2Zz4="
+          alt="Logo"
+          width="24"
+          height="24"
+        />
+      </a>
+      <a href="#">
+        <img
+          src="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDAwMDAwIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAxNTAgMTUwIj48cGF0aCBkPSJtOTUgNDQuN2MtMTMuNiAwLTI1LjIgMTEuNi0yNS4yIDI1LjJzMTEuNiAyNS4yIDI1LjIgMjUuMiAyNS4yLTExLjYgMjUuMi0yNS4yLTExLjYtMjUuMi0yNS4yLTI1LjJ6bTAgNC4zYzExLjUgMCAyMC45IDkuNCAyMC45IDIwLjkgMCAxMS41LTkuNCAyMC45LTIwLjkgMjAuOS0xMS41IDAtMjAuOS05LjQtMjAuOS0yMC45IDAtMTEuNSA5LjQtMjAuOSAyMC45LTIwLjl6TTExNC41IDQwbC0xLjYgMGMtMS41IDAtMi42IDEuMi0yLjYgMi42IDAgMS41IDEuMiAyLjYgMi42IDIuNiAxLjUgMCAyLjYtMS4yIDIuNi0yLjYgMC0xLjUtMS4xLTIuNi0yLjYtMi42eiIvPjwvc3ZnPg=="
+          alt="Logo"
+          width="24"
+          height="24"
+        />
+      </a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
